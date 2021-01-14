@@ -1,0 +1,12 @@
+[package]
+name = "rigidbody"
+version = "0.1.0"
+authors = ["molok"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vec = {path = "../vec"}
+collider = {path = "../collider"}
+lerp = {path = "../../lib/lerp"}
